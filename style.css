@@ -93,12 +93,11 @@ nav #icon{
     }
 }
 
-.fit {
-    max-width: 99%;
-    max-height: 99%;
-  }
-
-
 div {
     text-align: center;
+}
+section{
+    background: url("2.jpg") no-repeat;
+    background-size: cover;
+    height: 900px;
 }
