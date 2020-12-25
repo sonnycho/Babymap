@@ -34,7 +34,6 @@ nav a{
     color: white;
     font-size: 18px;
     text-transform: uppercase;
-    border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
 }
@@ -101,4 +100,85 @@ section{
     background-size: cover;
     width: cover;
     height: 100vh;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+caption{
+    display:none;
+}
+
+.board_list-warp{
+    padding:50px;
+}
+.board_list{
+    width:100%;
+    border-top: 2px solid green;
+}
+
+.board_list a{
+    color: black;
+    
+}
+.board_list tr{
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list th,
+.board_list td{
+    text-decoration-color: black;
+    padding:10px;
+    font-size: 14px;
+}
+
+.board_list td{
+    text-align: center;
+}
+
+.board_list .tit{
+    text-align:left;
+}
+
+.board_list .tit:hover{
+    text-decoration: underline;
+}
+
+.board_list-wrap .paging{
+    margin-top: 10px;
+}
+
+#paging a{
+    color: black;
+}
+
+.board_list_wrap .paging a{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color:black;
+}
+
+.board_list_wrap .paging a:first-child{
+    margin-left: 0;
+
+}
+.board_list_wrap .paging a.bt{
+    border: 1px solid #eee;
+    background: #eee;
+}
+.board_list_wrap .paging a.num{
+    border: 1px solid #000;
+    font-weight: 600;
+}
+.board_list_wrap .paging a.num.on{
+    background: green;
+    color:#fff;
+}
+.board_list_wrap h1{
+    text-size-adjust: 50px;
+    color: black;
 }
